@@ -87,7 +87,7 @@ async def skip(_, message: Message):
 
 
 
-@Client.on_message(filters.command(["reload", "refresh"]))
+@Client.on_message(filters.command(["mreload", "refresh"]))
 @errors
 @authorized_users_only
 async def admincache(client, message: Message):
